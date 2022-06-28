@@ -1,0 +1,35 @@
+.top_menu input{
+    margin-left: 1.5em;
+    width: 84%;
+    height: 42px;
+    border-radius: 0%;
+}
+
+.active_dot{
+    width: 10px;
+    height: 10px;
+    background-color: #50CD89;
+}
+
+.message_area .message_textarea textarea{
+    width: 730px;
+    height: 82px;
+    resize: none;
+    border: none;
+    border:1px solid #848484;
+}
+
+.message_area{
+    margin-top:1em;
+}
+
+.message_icon .message-button{
+    margin-right:4em;
+}
+.message_icon .message-button button{
+          background-color: #0095E8;   
+}
+
+ input[type="text"]::placeholder{
+    margin-left: 1em;
+}

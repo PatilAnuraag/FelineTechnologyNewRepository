@@ -1,0 +1,281 @@
+
+.full-screen-container {
+  /*  background-image: url("https://github.com/WebDevSimplified/css-challenges/blob/master/Transparent%20Login%20Form/background_image.jpg?raw=true");*/
+    /*height: 100%; */
+      
+    height: 100vh;
+    /* width: 100vw; */
+    width:100%;
+    background-size: cover; 
+    /* background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding:10px 10px; newly add property */
+    border-right: 3px solid blue;
+}
+.login-container {
+   /*background-color: hsla(201, 100%, 6%, 0.6); */
+    padding: 30px 30px;
+    /* min-width: 400px; */
+   /* width: 70%; */
+    width:140%;
+    /* max-width: 1450px; */
+    height: 50%;
+   /* border: 2px solid white; */
+}
+.login-title {
+     color: black;
+    /* text-align: center; */
+     margin: 0;
+     margin-bottom: 40px;
+     font-size: 2.5em;
+     font-weight: normal;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom:5em;
+}
+.input-group label {
+    color: white;
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+.input-group input {
+    font-size: 1.5em;
+    padding: .1em .25em;
+    background-color: hsla(201, 100%, 91%, 0.3);
+    border: 1px solid hsl(201, 100%, 6%);
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: lighter;
+}
+
+
+.input-group textarea {
+  font-size: 1.5em;
+  padding: .1em .25em;
+  background-color: hsla(201, 100%, 91%, 0.3);
+  border: 1px solid hsl(201, 100%, 6%);
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: lighter;
+  height: 10%;
+}
+
+.input-group select {
+  font-size: 1.5em;
+  padding: .1em .25em;
+  background-color: hsla(201, 100%, 91%, 0.3);
+  border: 1px solid hsl(201, 100%, 6%);
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: lighter;
+}
+.input-group input:focus {
+    border: 1px solid hsl(201, 100%, 50%)
+} 
+.login-button {
+    padding: 10px 30px;
+   /* width: 100%; */
+    width:91%;
+    border-radius: 5px; 
+    background-color: hsla(201, 100%, 50%, 0.1);
+    border: 1px solid hsl(201, 100%, 50%);
+    outline: none;
+  /*  font-size: 1.5em;*/
+    font-size: 0.7em; 
+    color: white;
+    font-weight: lighter;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: hsla(201, 100%, 50%, 0.3)
+}
+
+.login-button:focus {
+    background-color: hsla(201, 100%, 50%, 0.5)
+}
+/* Background Styles Only */
+.side-links {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.side-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: white;
+  width: 180px;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+/*
+.side-link-youtube {
+  background-color: red;
+}
+
+.side-link-twitter {
+  background-color: #1DA1F2;
+}
+
+.side-link-github {
+  background-color: #6e5494;
+}
+
+.side-link-text {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.side-link-icon {
+  color: white;
+  font-size: 30px;
+} */
+
+.second_row_field{
+  margin-top: 4em;
+}
+
+
+.third_row_field .box{
+  width: 90%;
+  height: 90%;
+  background-color: #71848E;
+  margin-left: 10%;
+  padding: 10%;
+}
+
+
+.third_row_field .textarea{
+  width:294px;
+  height: 80px;
+  margin-left: 19em;
+}
+
+.textarea textarea{
+  width: 100%;
+  height: 100%;
+  resize: none;
+}
+
+.input-group input{
+  height: 25px;
+  width:210px
+}
+
+.second_row_field .question{
+  background: #00000000;
+  margin-top: 2em;
+  color:#FFFFFF;
+  padding: 0px 25px 25px 25px;
+}
+
+.third_row_field{
+  margin-top: 4em;
+  padding: 10px 0px;  
+}
+
+.fourth_row_field{
+  margin-top: 4em;
+}
+
+.first_row_field .right_field_most textarea{
+   /* height: 115px; */
+   resize: none;
+}
+
+input[type="text"]
+{
+font-size:14px;
+}
+
+.right_field_most textarea{
+  font-size: 14px;
+}
+
+.third_row_field{color: #FFFFFF;}
+
+.third_row_field textarea{
+  color: #f4f7f9;
+ /* margin-left: 15em; */
+  background-color: transparent;
+}
+
+.third_row_field .box img{
+  width: 100%;
+  height: 100%;
+}
+
+/*.third_row_field a:hover{
+  border: 1px solid red;
+}*/
+
+.first_row_field .left_field{
+ /* padding: 40px; */
+  width: 280px;
+}
+
+.first_row_field .right_field{
+ /* padding: 40px!important; */
+ /* width: 280px; */
+  width: 124%;
+  max-width: 500px;
+ /* padding: 40px 130px 40px 130px; */
+}
+
+.first_row_field .right_field_most{
+ /* padding: 40px; */
+  width: 280px;
+}
+
+
+/* style for utilities */
+
+.utility_container{
+  width:22%;
+  background-color:black;
+  height: 100%;
+  padding: 16px;
+  color: #FFFFFF;
+}
+
+.utility_container .first_row{
+  border: 1px solid yellow;
+}
+
+
+
+/* six row field strapper */
+
+.six_row_field_strapper .round{
+  width: 25px;
+  border-radius: 50%;
+  height: 25px;
+  background-color:black;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.six_row_field_strapper .bar{
+  width: 60px;
+  height: 2px;
+  background-color: aqua;
+  margin-top: 0.8em;
+}
+
+
+
