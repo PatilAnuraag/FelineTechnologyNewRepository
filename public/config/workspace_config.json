@@ -1,0 +1,23 @@
+{
+    "status": true,
+    "message": "success",
+    "data": {
+        "workspaces": [
+            {
+                "userId": 1,
+                "workspaceIds": [
+                    1001,
+                    1002,
+                    1003
+                ]
+            },
+            {
+                "userId": 2,
+                "workspaceIds": [
+                    1004,
+                    1005
+                ]
+            }
+        ]
+    }
+}

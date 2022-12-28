@@ -1,0 +1,50 @@
+{
+    "status": true,
+    "message": "success",
+    "data": {
+        "workspaces": [
+            {
+                "workspaceId": 1001,
+                "featureIds": [
+                    20,
+                    40,
+                    60
+                ],
+                "emailThreadIds": [
+                    4005,
+                    4008
+                ],
+                "previousPath":"/chat",
+                "questionSetId": 21
+            },
+            {
+                "workspaceId": 1002,
+                "featureIds": [
+                    10,
+                    30,
+                    50
+                ],
+                "emailThreadIds": [
+                    4005,
+                    4008
+                ],
+                "previousPath":"/notes",
+                "questionSetId": 21
+            },
+            {
+                "workspaceId": 1002,
+                "featureIds": [
+                    20,
+                    30,
+                    70
+                ],
+                "emailThreadIds": [
+                    4005,
+                    4008
+                ],
+                "previousPath":"/screenShare",
+                "questionSetId": 21
+            }
+        ]
+    }
+}

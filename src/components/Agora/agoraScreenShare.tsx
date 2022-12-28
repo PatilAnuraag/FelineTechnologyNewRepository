@@ -15,8 +15,8 @@ const config: ClientConfig = {
   mode: "live", codec: "vp8", role: "host"
 };
 
-const appId: string = "ebde70e81d1441f88f1ce0753fecd99b"; //ENTER APP ID HERE
-const token: string | null = "006ebde70e81d1441f88f1ce0753fecd99bIACqRW26kwgjWe7gOWHkkk3eiEODfcVdyVbOmn3vUjVcuW5SXN4AAAAAEABGROOehZG0YgEAAQCEkbRi";
+const appId: string = "84b29267c26c414fbda852f940766f06"; //ENTER APP ID HERE
+const token: string | null = "00684b29267c26c414fbda852f940766f06IADzQj48pDkg/Xb1AFl1ELPM/EtKqYlgh5r8F60mBNMv2vnbpugAAAAAEADldWoAr5PFYgEAAQCuk8Vi";
 
 const AgoraScreenShare = () => {
   const [inCall, setInCall] = useState(false);
